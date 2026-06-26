@@ -1,0 +1,24 @@
+{
+  "name": "smartin",
+  "version": "1.0.0",
+  "description": "Smartin plugins for Claude Cowork and Claude Code. Free and local-first.",
+  "owner": {
+    "name": "Smartin",
+    "email": "martin.soucek@smartin.work"
+  },
+  "plugins": [
+    {
+      "name": "smartin-compass",
+      "description": "Work smarter. Catch raw ideas as they come, see which ones are worth checking, and get one clean weekly Finding worth forwarding. Free and local-first. Built on the Smartin Compass 6-tile method.",
+      "version": "0.1.1",
+      "author": "Smartin",
+      "source": {
+        "type": "directory",
+        "path": "./smartin-compass"
+      }
+    }
+  ],
+  "metadata": {
+    "pluginRoot": "."
+  }
+}
