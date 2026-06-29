@@ -11,11 +11,8 @@
       "name": "smartin-compass",
       "description": "Work smarter. Catch raw ideas as they come, see which ones are worth checking, and get one clean weekly Finding worth forwarding. Free and local-first. Built on the Smartin Compass 6-tile method.",
       "version": "0.1.1",
-      "author": "Smartin",
-      "source": {
-        "type": "directory",
-        "path": "./smartin-compass"
-      }
+      "author": { "name": "Smartin" },
+      "source": "./smartin-compass"
     }
   ],
   "metadata": {
