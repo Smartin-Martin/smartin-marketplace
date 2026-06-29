@@ -5,7 +5,7 @@ Free Claude Cowork / Claude Code plugins by Smartin.
 ## Install
 
 ```
-/plugin marketplace add martinsoucekhbhuzg/smartin-marketplace
+/plugin marketplace add Smartin-Martin/smartin-marketplace
 /plugin install smartin-compass
 ```
 
