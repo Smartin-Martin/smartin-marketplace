@@ -21,7 +21,7 @@ Read the documents in the folder given by `$ARGUMENTS`. If no path is given, ask
 Produce a structured report covering:
 
 - Method correctness. All six pillars present, A/B/C levels right, OVĚŘENO/NEOVĚŘENO logic sound, Obchod covers both dimensions, Zákazník includes market size.
-- Czech language quality. Grammar, the forbidden words, tone of a trusted colleague not a report, no em-dashes.
+- Language quality (Czech or English, whichever the set is written in). Grammar, the forbidden words, tone of a trusted colleague not a report, no em-dashes.
 - Adaptation quality. Worked examples made specific to the client, no real third-party company named, no invented numbers.
 - Specific issues with suggested fixes, referenced by document and section.
 

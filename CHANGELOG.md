@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 (2026-09-25)
+
+- Workshop documents and Findings are now written in English too, following the language the user writes in (previously Czech only).
+
 ## 0.2.0 (2026-09-25)
 
 - The six parts of the method are now called pillars (in Czech "pilíře"), in line with the Smartin method. Files renamed accordingly (`pilire-detail.md`, `pilire.yaml`, workshop documents `02_pilir_*`).

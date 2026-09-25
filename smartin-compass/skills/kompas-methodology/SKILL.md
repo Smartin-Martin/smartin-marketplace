@@ -1,7 +1,7 @@
 ---
 name: kompas-methodology
 description: The Smartin Compass method for checking whether a business idea has real foundations. Use this skill when the user runs /kompas or /kompas-review, asks how to check or work through an idea, a segment, a pricing model, or a new direction, or when the napadovnik skill needs the pillar definitions and check protocols to sort fragments or run a step. Holds the six pillars, the A/B/C check depths, the OVĚŘENO and NEOVĚŘENO logic, and the rules for generating workshop documents.
-version: 0.2.0
+version: 0.2.1
 ---
 
 # Smartin Compass: method
@@ -42,11 +42,11 @@ All six must hold before an idea is ready to run. One unchecked pillar is a weak
 
 For each pillar, three depths.
 
-| Level | Czech | Duration | When |
+| Level | Name (CZ / EN) | Duration | When |
 |---|---|---|---|
-| A | Rychlý | 1 to 3 days | low-risk assumption, first probe |
-| B | Standardní | 1 to 2 weeks | medium uncertainty, needs real data |
-| C | Hloubkový | 2 to 4 weeks | high-risk, critical decision |
+| A | Rychlý / Quick | 1 to 3 days | low-risk assumption, first probe |
+| B | Standardní / Standard | 1 to 2 weeks | medium uncertainty, needs real data |
+| C | Hloubkový / Deep | 2 to 4 weeks | high-risk, critical decision |
 
 Start with the pillar where uncertainty is highest. If it fails, you save weeks on the rest.
 
@@ -77,9 +77,11 @@ So when a check on Sales, Price or Return needs real company numbers to reach OV
 
 When generating documents or advising:
 
-- plain, direct Czech, no consulting jargon
-- never use: hypotéza, GTM, high-touch, low-touch, self-serve, scalabilita, playbook, milestone, deep-dive
-- instead: rozhodnutí or ověření, obchod, osobní přístup, automatizovaný přístup, dokáže růst, postup, cíl, přímý pohled
+- plain, direct language (Czech or English, following the user), no consulting jargon
+- never use: hypotéza, GTM, high-touch, low-touch, self-serve, scalabilita, playbook, milestone, deep-dive (in English also: hypothesis, go-to-market, scalability, deep dive)
+- instead in Czech: rozhodnutí or ověření, obchod, osobní přístup, automatizovaný přístup, dokáže růst, postup, cíl, přímý pohled
+- instead in English: decision or check, sales, personal approach, automated approach, can grow, procedure, goal, close look
+- in English the results are CONFIRMED and NOT CONFIRMED, and "zatím nevíme" is "we do not know yet"
 - examples concrete and specific to the user's industry
 - tone of a trusted colleague, not a consultant report
 - no em-dashes
@@ -90,8 +92,8 @@ When generating a workshop set:
 
 1. Use a neutral, fictional example in any illustration, then make it specific to the user's company and industry. Never name a real third-party company as the worked example.
 2. Keep the method structure identical. Only the examples and the company name change.
-3. Never invent specific numbers for the user's business. Leave blanks, such as `_____ Kč`, or use ranges. The user fills in their own.
-4. All generated documents are in Czech by default. The LLM guide may include other languages on request.
+3. Never invent specific numbers for the user's business. Leave blanks, such as `_____ Kč` (or in the user's currency), or use ranges. The user fills in their own.
+4. Generated documents follow the user's language, Czech or English. The reference files in this skill are in Czech; when writing in English, translate their content faithfully and keep the structure identical.
 
 ## Document structure
 
