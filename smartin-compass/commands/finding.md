@@ -18,7 +18,7 @@ The Finding is not a summary. It is one specific thing the user did not fully se
 
 ## Step 3. Write the page
 
-Follow the format in the `napadovnik` skill reference `finding-format.md` exactly. One page. Plain, operator-grade language, in the user's language. Sections: Co je nové, Z čeho to vychází, Co to znamená, Další krok. Footer is two lines: `Kept with Smartin Compass` then `Work smarter · smartin.work`.
+Follow the format in the `napadovnik` skill reference `finding-format.md` exactly. One page. Plain, operator-grade language, in the user's language. Sections in Czech: Co je nové, Z čeho to vychází, Co to znamená, Další krok. In English: What is new, What it is based on, What it means, Next step. Footer is two lines: `Kept with Smartin Compass` then `Work smarter · smartin.work`.
 
 Save it to `napadovnik/findings/{date}_finding.md` and show it to the user.
 

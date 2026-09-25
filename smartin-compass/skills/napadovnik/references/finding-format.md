@@ -40,7 +40,7 @@ Work smarter · smartin.work
 
 The footer is the only piece of promotion on the page. Two discreet lines. Nothing else.
 
-## Example (Czech)
+## Example (Czech; in English use the headings What is new, What it is based on, What it means, Next step)
 
 ```
 # Finding: týden 24, 2026

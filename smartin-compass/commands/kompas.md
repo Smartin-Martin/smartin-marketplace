@@ -4,7 +4,7 @@ allowed-tools: Read, Write, Bash, Glob, AskUserQuestion
 argument-hint: company name or idea description
 ---
 
-You are running the Smartin Compass workshop generator. Gather context about the company and the idea, then generate a complete, tailored 13-document workshop set in Czech.
+You are running the Smartin Compass workshop generator. Gather context about the company and the idea, then generate a complete, tailored 13-document workshop set in the user's language (Czech or English; ask if unclear).
 
 ## Step 1. Load the method
 
@@ -23,7 +23,7 @@ If `$ARGUMENTS` is empty or thin, ask for the following, all at once in one mess
 3. Target customer, even if uncertain.
 4. Industry or domain.
 5. Biggest uncertainty. Which pillar feels riskiest?
-6. Output language for the LLM guide. Czech by default, or bilingual.
+6. Output language for the documents. Default: the language the user writes in. Czech and English are both fully supported.
 
 If the repository has a matching idea in `napadovnik/`, offer to pull its collected inputs in as a starting point.
 
@@ -36,17 +36,21 @@ Create a task list with all 13 documents. Show the user what you will create and
 Save to `[workspace]/[company-slug]/[YYYY-MM]_workshop-kompas/_ke-schvaleni/`. Follow dokumenty-guide.md for each document.
 
 Generation rules:
-1. Czech only, plain and direct. No consulting jargon. Tone per the method skill.
+1. Write in the chosen language, plain and direct. No consulting jargon. Tone per the method skill. The method reference files are written in Czech; translate their content faithfully when writing in English, using the English pillar names (Customer, Problem, Product, Sales, Price, Return) and result names (CONFIRMED, NOT CONFIRMED).
 2. Use a neutral, fictional worked example, then make it specific to the client's industry. Never name a real third-party company.
-3. Never invent numbers for the client. Leave blanks like `_____ Kč`.
+3. Never invent numbers for the client. Leave blanks like `_____ Kč` (or in the user's currency).
 4. Keep structure identical. Only examples and company name change.
-5. Forbidden words: hypotéza, GTM, high-touch, low-touch, self-serve, scalabilita, playbook, milestone, deep-dive. Use the Czech equivalents from the method skill. No em-dashes.
+5. Forbidden words: hypotéza, GTM, high-touch, low-touch, self-serve, scalabilita, playbook, milestone, deep-dive. Use the plain equivalents from the method skill. No em-dashes.
 6. End every generated document with a discreet two-line footer: `Kept with Smartin Compass` then `Work smarter · smartin.work`. Optionally the Smartin logo on the index document (00) if the asset is available. One discreet branding element per document, nothing more.
 
 The LLM guide is document `12_smartin_compass_llm_guide.md`.
 
 ## Step 5. Confirm
 
-Show a summary, the folder path, the recommended starting pillar and why, and a reminder that documents in `_ke-schvaleni/` need a human read before sharing with the client. Close in Czech:
+Show a summary, the folder path, the recommended starting pillar and why, and a reminder that documents in `_ke-schvaleni/` need a human read before sharing with the client. Close in the chosen language. Czech version:
 
 "Všech 13 dokumentů je připraveno ke kontrole. Doporučuju začít pilířem [název], [jednovětý důvod]. Před předáním klientovi si dokumenty projdi ve složce `_ke-schvaleni` a přesuň je do `_finalni`, až budou schválené."
+
+English version:
+
+"All 13 documents are ready for review. I recommend starting with the [name] pillar, [one-sentence reason]. Before you share them with the client, read them in the `_ke-schvaleni` folder and move them to `_finalni` once approved."

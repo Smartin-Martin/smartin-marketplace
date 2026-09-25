@@ -47,7 +47,7 @@ No setup, no environment variables. Install, open, start talking. A storage fold
 
 ## Language
 
-Compass responds in your language. Generated workshop documents default to Czech and can be produced in other languages on request.
+Compass responds in your language. Findings and workshop documents are written in Czech or English, following the language you use.
 
 ## About Smartin
 
