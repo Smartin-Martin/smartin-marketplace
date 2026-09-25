@@ -80,7 +80,7 @@ Markdown k nahrání do AI asistenta. O Compasu (2 odstavce). 6 pilířů (tabul
 1. Používej neutrální, smyšlený příklad jako ilustraci a pak ho udělej konkrétní pro firmu a obor uživatele. Nikdy neuváděj reálnou třetí firmu jako vzorový příklad.
 2. Nikdy nevymýšlej konkrétní čísla za byznys klienta. Nech prázdná místa, například `_____ Kč`, nebo použij rozsahy. Klient si doplní svá.
 3. Drž strukturu metodiky identickou. Mění se jen příklady a název firmy. Neměň délky testů ani logiku OVĚŘENO/NEOVĚŘENO.
-4. Všechny dokumenty česky. LLM průvodce může na vyžádání obsahovat i další jazyky.
+4. Dokumenty v jazyce uživatele, česky nebo anglicky. V angličtině přelož obsah věrně, drž stejnou strukturu, pilíře Customer, Problem, Product, Sales, Price, Return a výsledky CONFIRMED a NOT CONFIRMED. Názvy souborů mohou zůstat stejné.
 5. Pojmenování složky. Navrhni `RRRR-MM_workshop-kompas/` s podsložkou `_ke-schvaleni/` pro kontrolu a `_finalni/` pro schválené.
 
 ## Patička a branding
