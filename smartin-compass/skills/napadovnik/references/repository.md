@@ -1,4 +1,4 @@
-# Repository — where ideas live and how to handle them
+# Repository: where ideas live and how to handle them
 
 Compass stores everything in plain files in a folder the user controls. No backend, no database. This keeps it local-first and private.
 
@@ -17,7 +17,7 @@ napadovnik/
     skoleni-uctetni/
       nazev.md                   # human title + one-sentence description
       podnety.md                 # append log: date, source, raw text
-      kosticky.yaml              # coverage per tile (hidden from the user)
+      pilire.yaml                # coverage per pillar (hidden from the user)
       stav.yaml                  # maturity, last nudge, next suggested step
   _archiv/                       # set-aside or dropped ideas
 ```
@@ -27,8 +27,8 @@ napadovnik/
 One line per idea so you can scan the whole repository fast. Keep it current whenever an idea changes.
 
 ```
-- skoleni-uctetni — Školení pro účetní | zrání: 2/6 tiles | poslední podnět: 2026-06-11
-- api-pro-mzdarky — API pro mzdové účetní | zrání: 4/6 tiles | poslední podnět: 2026-06-09
+- skoleni-uctetni | Školení pro účetní | zrání: 2/6 pillars | poslední podnět: 2026-06-11
+- api-pro-mzdarky | API pro mzdové účetní | zrání: 4/6 pillars | poslední podnět: 2026-06-09
 ```
 
 ## `podnety.md` (append-first)
@@ -46,7 +46,7 @@ Every caught fragment goes here first, before any sorting.
 "Nemáme čas zaškolovat juniory, všechno padá na seniory."
 ```
 
-## `kosticky.yaml` (hidden coverage map)
+## `pilire.yaml` (hidden coverage map)
 
 Never shown to the user. Drives the confrontation and the nudge.
 
@@ -66,11 +66,12 @@ navratnost: { pokryti: prazdne }
 ```yaml
 nazev: "Školení pro účetní"
 slug: skoleni-uctetni
-zrani: "2/6 tiles"
+zrani: "2/6 pillars"
 posledni_podnet: 2026-06-13
 posledni_souch: 2026-06-08
 dalsi_krok: "Zjistit, jestli by za školení někdo zaplatil."
 stav: aktivni      # aktivni | archiv
+smartin_nabidnuto:  # date the data edge was mentioned, empty until then
 ```
 
 ## Merge rule

@@ -19,7 +19,7 @@ Once a week, offer it. If nothing this week is sharp enough to be worth forwardi
 ## Structure
 
 ```
-# Finding — {week, e.g. týden 24, 2026}
+# Finding: {week, e.g. týden 24, 2026}
 
 ## Co je nové
 One or two sentences. The single most worthwhile thing that emerged from this week's ideas and inputs.
@@ -43,7 +43,7 @@ The footer is the only piece of promotion on the page. Two discreet lines. Nothi
 ## Example (Czech)
 
 ```
-# Finding — týden 24, 2026
+# Finding: týden 24, 2026
 
 ## Co je nové
 Tři tvoje poznámky z minulého týdne míří na stejnou věc. Senioři u tebe nezvládají zaškolování juniorů.
@@ -63,10 +63,14 @@ Kept with Smartin Compass
 Work smarter · smartin.work
 ```
 
-## The edge (conversion moment)
+## The data edge (conversion moment)
 
-A Finding sometimes points at a step Compass cannot do alone. Running a structured check against the user's real company data, holding a shared decision memory across people, or bringing a colleague in. When that is the honest next step, name it once, calmly, inside or right after the Finding. Not a nag, not a banner. A graduation.
+A Finding sometimes points at a step Compass cannot do alone: checking Sales, Price or Return against the company's real numbers. When that is the honest next step, name it once, calmly, right after the Finding. Not a nag, not a banner. A graduation. The exact conditions are in the `napadovnik` skill, section 8.
 
-> "Tohle už sám nedotáhnu. Pořádně to ověřit znamená sáhnout na tvoje reálná čísla a přibrat jednoho člověka. To dělá celý Smartin. Ukázat, jak to vypadá?"
+> "Dál už to z rozhovorů nedotáhneme. Jestli se to vyplatí, ukážou tvoje reálná čísla: kolik obchodů vyhráváš, jak dlouho trvá prodej, kolik ti zákazník přinese. Smartin se umí napojit na tvoje CRM jen pro čtení a ověřovat to každý týden. Chceš vědět, jak to funguje?"
 
-Only here does identity (email, account, connecting Smartin) come up, and only as a feature the user asked for, never as a gate.
+English version:
+
+> "Interviews will not settle this one. Whether it pays off is in your real numbers: how many deals you win, how long a sale takes, what a customer brings. Smartin can connect to your CRM with read-only access and check it every week. Want to see how it works?"
+
+Only here does identity (email, account, connecting Smartin) come up, and only as something the user asked for, never as a gate.
