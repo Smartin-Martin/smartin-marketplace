@@ -11,7 +11,7 @@ You are running the Smartin Compass workshop generator. Gather context about the
 Read the method and document guidance:
 
 @${CLAUDE_PLUGIN_ROOT}/skills/kompas-methodology/SKILL.md
-@${CLAUDE_PLUGIN_ROOT}/skills/kompas-methodology/references/kosticky-detail.md
+@${CLAUDE_PLUGIN_ROOT}/skills/kompas-methodology/references/pilire-detail.md
 @${CLAUDE_PLUGIN_ROOT}/skills/kompas-methodology/references/dokumenty-guide.md
 
 ## Step 2. Gather context
@@ -22,14 +22,14 @@ If `$ARGUMENTS` is empty or thin, ask for the following, all at once in one mess
 2. The idea. What new direction are they exploring?
 3. Target customer, even if uncertain.
 4. Industry or domain.
-5. Biggest uncertainty. Which tile feels riskiest?
+5. Biggest uncertainty. Which pillar feels riskiest?
 6. Output language for the LLM guide. Czech by default, or bilingual.
 
 If the repository has a matching idea in `napadovnik/`, offer to pull its collected inputs in as a starting point.
 
 ## Step 3. Plan the set
 
-Create a task list with all 13 documents. Show the user what you will create and which tile you recommend starting with, based on their biggest uncertainty (see the recommendation logic in dokumenty-guide.md).
+Create a task list with all 13 documents. Show the user what you will create and which pillar you recommend starting with, based on their biggest uncertainty (see the recommendation logic in dokumenty-guide.md).
 
 ## Step 4. Generate
 
@@ -47,6 +47,6 @@ The LLM guide is document `12_smartin_compass_llm_guide.md`.
 
 ## Step 5. Confirm
 
-Show a summary, the folder path, the recommended starting tile and why, and a reminder that documents in `_ke-schvaleni/` need a human read before sharing with the client. Close in Czech:
+Show a summary, the folder path, the recommended starting pillar and why, and a reminder that documents in `_ke-schvaleni/` need a human read before sharing with the client. Close in Czech:
 
-"Všech 13 dokumentů je připraveno ke kontrole. Doporučuju začít kostičkou [název], [jednovětý důvod]. Před předáním klientovi si dokumenty projdi ve složce `_ke-schvaleni` a přesuň je do `_finalni`, až budou schválené."
+"Všech 13 dokumentů je připraveno ke kontrole. Doporučuju začít pilířem [název], [jednovětý důvod]. Před předáním klientovi si dokumenty projdi ve složce `_ke-schvaleni` a přesuň je do `_finalni`, až budou schválené."

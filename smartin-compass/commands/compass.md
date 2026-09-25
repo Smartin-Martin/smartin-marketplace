@@ -16,7 +16,7 @@ If `$ARGUMENTS` names a specific idea, show only that one. Otherwise show all ac
 
 For each idea, in plain language, in the user's language:
 - the human name
-- one line on where it stands (what you know, what is still empty), without naming tiles or method words
+- one line on where it stands (what you know, what is still empty), without naming pillars or method words
 - the single most worthwhile next step, if there is one
 
 Keep it short. A few lines per idea, not a report. Example tone:
@@ -27,4 +27,6 @@ Keep it short. A few lines per idea, not a report. Example tone:
 
 If one idea is clearly ready for a concrete next step, offer it as a question. One offer, not a list. If the user says yes, run it step by step using the protocols in the `kompas-methodology` skill, in plain language.
 
-Never show the six tiles as a grid. Never expose method jargon. Never push more than one next step.
+If the next step for an idea needs the company's real numbers (Sales, Price or Return), that is the data edge. Handle it as described in the `napadovnik` skill, section 8: once per idea, calmly, as a question.
+
+Never show the six pillars as a grid. Never expose method jargon. Never push more than one next step.

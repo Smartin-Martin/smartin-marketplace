@@ -22,8 +22,8 @@ Follow the format in the `napadovnik` skill reference `finding-format.md` exactl
 
 Save it to `napadovnik/findings/{date}_finding.md` and show it to the user.
 
-## Step 4. The edge
+## Step 4. The data edge
 
-If the honest next step is something Compass cannot do alone (a full check against real company data, shared memory across people, bringing a colleague in), name it once, calmly, after the Finding, per `finding-format.md`. Not a nag. The user decides.
+If the honest next step is checking Sales, Price or Return against the company's real numbers, which Compass cannot do alone, name it once, calmly, after the Finding, per `finding-format.md` and the conditions in the `napadovnik` skill, section 8. Not a nag. The user decides.
 
 Never send the Finding anywhere yourself. The user decides whether to forward it.

@@ -1,6 +1,6 @@
 {
   "name": "smartin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Smartin plugins for Claude Cowork and Claude Code. Free and local-first.",
   "owner": {
     "name": "Smartin",
@@ -9,11 +9,28 @@
   "plugins": [
     {
       "name": "smartin-compass",
-      "description": "Work smarter. Catch raw ideas as they come, see which ones are worth checking, and get one clean weekly Finding worth forwarding. Free and local-first. Built on the Smartin Compass 6-tile method.",
-      "version": "0.1.1",
+      "description": "Check whether a new business idea holds before you bet on it. Catch raw ideas as they come, see which assumption to check first, and get one weekly Finding worth forwarding. Six-pillar Smartin Compass method. Free and local-first.",
+      "version": "0.2.0",
       "license": "MIT",
-      "author": { "name": "Smartin" },
-      "source": "./smartin-compass"
+      "author": {
+        "name": "Smartin",
+        "email": "martin.soucek@smartin.work"
+      },
+      "source": "./smartin-compass",
+      "homepage": "https://smartin.work",
+      "category": "productivity",
+      "keywords": [
+        "smartin",
+        "compass",
+        "idea-validation",
+        "business-ideas",
+        "decision-making",
+        "customer-discovery",
+        "pricing",
+        "unit-economics",
+        "founders",
+        "kompas"
+      ]
     }
   ],
   "metadata": {
