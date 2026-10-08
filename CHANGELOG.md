@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 (2026-10-08)
+
+- Contact email changed to hello@smartin.work.
+
 ## 0.2.1 (2026-09-25)
 
 - Workshop documents and Findings are now written in English too, following the language the user writes in (previously Czech only).
