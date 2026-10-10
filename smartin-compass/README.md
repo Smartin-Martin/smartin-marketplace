@@ -31,6 +31,13 @@ You do not need the commands for everyday use. Just talk. Compass catches and so
 
 Local-first by design. Compass works entirely with Claude and the folder you connect. Your ideas stay where you put them. Nothing is sent anywhere unless you connect Smartin yourself and ask for it.
 
+What the plugin does on your machine, in full:
+
+- It reads and writes Markdown and YAML files only in the folder you connect.
+- When you share a link, Claude opens that page to note what it is about. Nothing else is fetched.
+- `/kompas` creates Word documents and an Excel calculator. If that needs a shell command, Claude asks you first. No command runs without your approval, and no shell access is pre-approved.
+- It has no hooks, no MCP servers, no scripts, and sends no data to Smartin or anyone else.
+
 Compass can also read from sources you have already connected (notes, documents) to catch ideas you did not paste by hand. It asks once before it does, and you can say no.
 
 ## When a pillar needs your real numbers

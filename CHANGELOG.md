@@ -3,6 +3,7 @@
 ## 0.2.3 (2026-10-10)
 
 - Commands no longer pre-approve shell access. If a step needs the shell (for example to build Word documents), Claude asks first.
+- README now lists everything the plugin reads, writes and fetches.
 
 ## 0.2.2 (2026-10-08)
 
