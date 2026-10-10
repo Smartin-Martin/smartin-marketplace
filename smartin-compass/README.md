@@ -4,6 +4,12 @@ Catch your raw ideas as they come. See which ones are worth checking. Get one cl
 
 Smartin Compass is a free, local-first plugin for Claude Cowork and Claude Code. You drop in half-thoughts, links, and customer quotes as they happen. Compass keeps them, quietly sorts them, and once an idea matures it gently points you to the one thing worth checking next. You never have to know the method or formulate anything precisely. You just talk. Compass adds the structure.
 
+## Install
+
+```
+/plugin install smartin-compass --marketplace Smartin-Martin/smartin-marketplace
+```
+
 ## What it does
 
 - **Catches anything, with zero friction.** A link, a half-sentence, a customer quote, a "what if." No forms, no tagging. Compass just keeps it and shows it understood.

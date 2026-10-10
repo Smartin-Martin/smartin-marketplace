@@ -7,6 +7,12 @@ It is built on the Smartin Compass method: one piece of evidence from reality be
 ## Install
 
 ```
+/plugin install smartin-compass --marketplace Smartin-Martin/smartin-marketplace
+```
+
+On older Claude Code versions, add the marketplace first:
+
+```
 /plugin marketplace add Smartin-Martin/smartin-marketplace
 /plugin install smartin-compass
 ```
@@ -56,6 +62,15 @@ The plugin adds four commands. `/compass` shows the state of your collected idea
 ## Skills
 
 Two skills load automatically. The napadovnik skill catches half-thoughts, links, and customer quotes from conversation and quietly matures them, with zero friction. The kompas-methodology skill holds the six pillars, the check depths, and the rules for turning an idea into a workshop you can actually run.
+
+## Privacy and what the plugin runs
+
+Compass is local-first. Your ideas stay in the folder you connect.
+
+- It reads and writes Markdown and YAML files only in that folder.
+- When you share a link, Claude opens that page to note what it is about. Nothing else is fetched.
+- `/kompas` creates Word documents and an Excel calculator. If that needs a shell command, Claude asks you first. No shell access is pre-approved.
+- It has no hooks, no MCP servers, no scripts, and sends no data to Smartin or anyone else.
 
 ## Why it matters
 
