@@ -1,6 +1,6 @@
 {
   "name": "smartin-compass",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Check whether a new business idea holds before you bet on it. Catch raw ideas as they come, see which assumption to check first, and get one weekly Finding worth forwarding. Six-pillar Smartin Compass method. Free and local-first.",
   "author": {
     "name": "Smartin",
@@ -20,5 +20,6 @@
     "kompas"
   ],
   "repository": "https://github.com/Smartin-Martin/smartin-marketplace",
-  "license": "MIT"
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png"
 }

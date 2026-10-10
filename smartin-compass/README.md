@@ -41,7 +41,7 @@ What the plugin does on your machine, in full:
 
 - It reads and writes Markdown and YAML files only in the folder you connect.
 - When you share a link, Claude opens that page to note what it is about. Nothing else is fetched.
-- `/kompas` creates Word documents and an Excel calculator. If that needs a shell command, Claude asks you first. No command runs without your approval, and no shell access is pre-approved.
+- `/kompas` creates Word documents and an Excel calculator. Claude asks before writing any file or running any shell command. Only reading is pre-approved.
 - It has no hooks, no MCP servers, no scripts, and sends no data to Smartin or anyone else.
 
 Compass can also read from sources you have already connected (notes, documents) to catch ideas you did not paste by hand. It asks once before it does, and you can say no.
@@ -61,6 +61,23 @@ No setup, no environment variables. Install, open, start talking. A storage fold
 ## Language
 
 Compass responds in your language. Findings and workshop documents are written in Czech or English, following the language you use.
+
+## Examples
+
+- "I keep thinking we could sell our onboarding as a separate package for smaller clients." Compass saves the idea and sorts it under Product and Price.
+- `/compass` shows your collected ideas and the one pillar worth checking first.
+- `/finding` writes this week's Finding, one page you can forward to a co-founder.
+- `/kompas Acme, self-service tier` generates a full workshop set for that idea.
+
+## Troubleshooting
+
+- Commands do not appear: run `/reload-plugins` or restart Claude.
+- Compass cannot find your ideas: tell Claude which folder to use. Ideas live in plain Markdown and YAML files there.
+- Claude asks before saving a file: this is intended. Compass never writes without your approval.
+
+## Support
+
+Questions, bugs or security concerns: hello@smartin.work, or open an issue at https://github.com/Smartin-Martin/smartin-marketplace/issues.
 
 ## About Smartin
 

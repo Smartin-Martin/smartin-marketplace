@@ -69,7 +69,7 @@ Compass is local-first. Your ideas stay in the folder you connect.
 
 - It reads and writes Markdown and YAML files only in that folder.
 - When you share a link, Claude opens that page to note what it is about. Nothing else is fetched.
-- `/kompas` creates Word documents and an Excel calculator. If that needs a shell command, Claude asks you first. No shell access is pre-approved.
+- `/kompas` creates Word documents and an Excel calculator. Claude asks before writing any file or running any shell command. Only reading is pre-approved.
 - It has no hooks, no MCP servers, no scripts, and sends no data to Smartin or anyone else.
 
 ## Why it matters

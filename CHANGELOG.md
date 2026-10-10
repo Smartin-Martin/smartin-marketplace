@@ -1,8 +1,10 @@
 # Changelog
 
-## 0.2.3 (2026-10-10)
+## 0.2.4 (2026-10-10)
 
 - Commands no longer pre-approve shell access. If a step needs the shell (for example to build Word documents), Claude asks first.
+- Commands pre-approve reading only. Claude asks before writing any file.
+- Plugin icon, examples, troubleshooting and support contact added.
 - README now lists everything the plugin reads, writes and fetches.
 
 ## 0.2.2 (2026-10-08)
