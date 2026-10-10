@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3 (2026-10-10)
+
+- Commands no longer pre-approve shell access. If a step needs the shell (for example to build Word documents), Claude asks first.
+
 ## 0.2.2 (2026-10-08)
 
 - Contact email changed to hello@smartin.work.

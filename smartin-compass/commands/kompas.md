@@ -1,6 +1,6 @@
 ---
 description: Generate a full Smartin Compass workshop set for one mature idea
-allowed-tools: Read, Write, Bash, Glob, AskUserQuestion
+allowed-tools: Read, Write, Glob, AskUserQuestion
 argument-hint: company name or idea description
 ---
 

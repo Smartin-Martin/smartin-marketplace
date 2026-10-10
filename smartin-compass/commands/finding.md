@@ -1,6 +1,6 @@
 ---
 description: Produce this week's Finding, one clean page worth forwarding
-allowed-tools: Read, Write, Bash, Glob, Grep
+allowed-tools: Read, Write, Glob, Grep
 argument-hint: optional idea name
 ---
 

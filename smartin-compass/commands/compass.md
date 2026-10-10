@@ -1,6 +1,6 @@
 ---
 description: Show the state of your collected ideas and what is worth checking next
-allowed-tools: Read, Write, Bash, Glob, Grep
+allowed-tools: Read, Write, Glob, Grep
 argument-hint: optional idea name
 ---
 

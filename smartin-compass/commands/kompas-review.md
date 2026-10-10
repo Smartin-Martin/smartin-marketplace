@@ -1,6 +1,6 @@
 ---
 description: Review an existing Smartin Compass workshop set and flag issues
-allowed-tools: Read, Write, Bash, Glob, Grep
+allowed-tools: Read, Write, Glob, Grep
 argument-hint: folder path
 ---
 
