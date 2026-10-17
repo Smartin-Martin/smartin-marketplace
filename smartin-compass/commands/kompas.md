@@ -36,14 +36,14 @@ Create a task list with all 13 documents. Show the user what you will create and
 Save to `[workspace]/[company-slug]/[YYYY-MM]_workshop-kompas/_ke-schvaleni/`. Follow dokumenty-guide.md for each document.
 
 Generation rules:
-1. Write in the chosen language, plain and direct. No consulting jargon. Tone per the method skill. The method reference files are written in Czech; translate their content faithfully when writing in English, using the English pillar names (Customer, Problem, Product, Sales, Price, Return) and result names (CONFIRMED, NOT CONFIRMED).
+1. Write in the chosen language, plain and direct. No consulting jargon. Tone per the method skill. The method reference files are written in Czech; translate their content faithfully when writing in English, using the English pillar names (Customer, Problem, Product, Sales, Price, Return) and state names (Validated, Not validated, Failed). In Czech the states are Ověřeno, Neověřeno, Neobstál and the pillar statement is tvrzení.
 2. Use a neutral, fictional worked example, then make it specific to the client's industry. Never name a real third-party company.
 3. Never invent numbers for the client. Leave blanks like `_____ Kč` (or in the user's currency).
 4. Keep structure identical. Only examples and company name change.
 5. Forbidden words: hypotéza, GTM, high-touch, low-touch, self-serve, scalabilita, playbook, milestone, deep-dive. Use the plain equivalents from the method skill. No em-dashes.
 6. End every generated document with a discreet two-line footer: `Kept with Smartin Compass` then `Work smarter · smartin.work`. Optionally the Smartin logo on the index document (00) if the asset is available. One discreet branding element per document, nothing more.
 
-The LLM guide is document `12_smartin_compass_llm_guide.md`.
+The LLM guide is document `12_smartin_kompas_llm_guide.md`.
 
 ## Step 5. Confirm
 

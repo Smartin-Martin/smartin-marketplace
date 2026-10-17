@@ -1,14 +1,14 @@
 # Pilíře: detailní obsah
 
-Pro každý pilíř: proč záleží, ukazatel ověření, A/B/C test struktury a kritéria vyhodnocení.
+Pro každý pilíř: klíčová otázka doslova podle veřejné sady, proč záleží, ukazatel ověření, A/B/C test struktury a kritéria vyhodnocení. Na konci každého pilíře je, co znamená Ověřeno (zelená) a Neobstál (červená). Dokud pilíř testem neprošel, je Neověřeno (šedá).
 
 ---
 
-## Zákazník: Víme komu to je?
+## Zákazník: Víme, pro koho to je a jak velký je trh?
 
 Proč záleží. Bez jasného zákazníka nelze ověřit žádný další předpoklad. Zákazník není „firmy" ani „lidi s problémem". Je to konkrétní člověk s konkrétní rolí, situací a potřebou.
 
-Ukazatel úspěchu. Máme jasně definovaný segment: konkrétní role, velikost firmy, situace, ve které nakupuje. Víme i jak velký trh cílíme (TAM/SAM/SOM).
+Ukazatel ověření. Máme jasně definovaný segment: konkrétní role, velikost firmy, situace, ve které nakupuje. Víme i jak velký trh cílíme (TAM/SAM/SOM).
 
 Velikost trhu. Definice zákazníka přímo určuje velikost trhu. TAM je celkový trh, SAM reálně oslovitelný, SOM reálně získatelný. Čím užší segment, tím menší trh, a naopak.
 
@@ -33,12 +33,12 @@ Velikost trhu. Definice zákazníka přímo určuje velikost trhu. TAM je celkov
 - Výstup. Segmentační matice. 3 až 5 typů zákazníků s popisem situace, potřeby, ochoty platit a odhadované velikosti segmentu.
 - Kritéria ověření. Segmenty jsou rozlišitelné a měřitelné. Víme, který jít první, a proč. Víme, jak velký trh cílíme.
 
-OVĚŘENO. Máme jasně definovaný segment. Víme, kdo je a kdo není náš zákazník. Trh je dost velký pro cílovou ambici.
-NEOVĚŘENO. Zákazník je stále „firmy" nebo „lidi s problémem". Trh je příliš malý nebo nevíme, jak velký je.
+Ověřeno (zelená). Máme jasně definovaný segment. Víme, kdo je a kdo není náš zákazník. Trh je dost velký pro cílovou ambici.
+Neobstál (červená). Zákazník je stále „firmy" nebo „lidi s problémem". Trh je příliš malý nebo nevíme, jak velký je.
 
 ---
 
-## Problém: Má skutečný problém?
+## Problém: Mají opravdový problém, který už dnes řeší?
 
 Proč záleží. Zákazník musí mít problém, který skutečně existuje, skutečně ho trápí a chce ho řešit. Pokud problém existuje jen v naší hlavě, celý byznys stojí na předpokladu.
 
@@ -64,12 +64,12 @@ Ukazatel ověření. Zákazníci aktivně popsali problém bez vašeho naváděn
 - Výstup. Problémová mapa. Prioritizace problémů, odhad frekvence, dopad, dostupnost řešení.
 - Kritéria ověření. Problém validován kvantitativně i kvalitativně. Víme, proč ho zákazník neřeší sám. Máme seřazené priority.
 
-OVĚŘENO. Zákazníci popsali problém vlastními slovy, opakovaně, s konkrétními náklady.
-NEOVĚŘENO. Problém existuje jen v naší hlavě. Zákazníci ho nevnímají jako palčivý.
+Ověřeno (zelená). Zákazníci popsali problém vlastními slovy, opakovaně, s konkrétními náklady.
+Neobstál (červená). Problém existuje jen v naší hlavě. Zákazníci ho nevnímají jako palčivý.
 
 ---
 
-## Produkt: Čím jsme lepší než alternativy?
+## Produkt: Proč jsme lepší než to, co používají dnes?
 
 Proč záleží. Zákazník vždy porovnává. Alternativa není jen přímá konkurence, je to i „nedělám nic", „řeším to sám" nebo „mám jiného dodavatele". Pokud vaše řešení není výrazně lepší na něco konkrétního, zákazník nemá důvod přejít.
 
@@ -96,12 +96,12 @@ Ukazatel ověření. Zákazníci vyjádřili jasnou výhodu oproti tomu, co děl
 - Výstup. Feature-level hodnocení. Co musí být, co je nice-to-have, co zákazníky nezajímá.
 - Kritéria ověření. 70 % označilo konkrétní funkci za „musí mít". Za diferenciaci by zaplatili. Víte, které funkce nerozvíjet.
 
-OVĚŘENO. Zákazníci sami pojmenovali konkrétní výhodu. Diferenciace je jasná a bránitelná.
-NEOVĚŘENO. Výhoda existuje jen v naší prezentaci. Zákazníci nevidí důvod přejít.
+Ověřeno (zelená). Zákazníci sami pojmenovali konkrétní výhodu. Diferenciace je jasná a bránitelná.
+Neobstál (červená). Výhoda existuje jen v naší prezentaci. Zákazníci nevidí důvod přejít.
 
 ---
 
-## Obchod: Jak prodáme a co dodáme?
+## Obchod: Jak budeme prodávat a co zákazník dostane?
 
 Proč záleží. Obchod řeší dvě věci najednou. Jak zákazník nakoupí a co dostane po nákupu. Nejde jen o to, kde produkt prodáte, jde o celý způsob, jakým pracujete se zákazníkem. Ty dvě věci spolu přímo souvisí.
 
@@ -109,7 +109,7 @@ Dvě dimenze.
 1. Jak zákazník nakoupí. Sám online. Demo a nabídka. Větší zakázka se schvalovacím procesem.
 2. Co dostane po nákupu. Přístup a jde sám. Pomoc s rozjezdem. Trvalá péče.
 
-Ukazatel úspěchu. Víme přesně, jak zákazník nakoupí, co dostane po nákupu, a kolik nás to stojí (akvizice plus dodání).
+Ukazatel ověření. Víme přesně, jak zákazník nakoupí, co dostane po nákupu, a kolik nás to stojí (akvizice plus dodání).
 
 ### A: Rychlý test
 - Čas. Půl dne, 2 až 3 lidi.
@@ -132,12 +132,12 @@ Ukazatel úspěchu. Víme přesně, jak zákazník nakoupí, co dostane po náku
 - Výstup. Přehled způsobů prodeje s reálnými čísly. Zdokumentovaný postup rozjezdu.
 - Kritéria ověření. Víme, který způsob funguje nejlépe. Postup je předatelný. Víme, při kolika zákaznících přidat lidi.
 
-OVĚŘENO. Víme přesně, jak zákazník nakoupí a co dostane. Náklady na akvizici a dodání odpovídají hodnotě zákazníka.
-NEOVĚŘENO. Model je neujasněný. Není jasné, kdo prodává, kdo dodává, kolik to stojí.
+Ověřeno (zelená). Víme přesně, jak zákazník nakoupí a co dostane. Náklady na akvizici a dodání odpovídají hodnotě zákazníka.
+Neobstál (červená). Model je neujasněný. Není jasné, kdo prodává, kdo dodává, kolik to stojí.
 
 ---
 
-## Cena: Kolik zaplatí?
+## Cena: Kolik opravdu zaplatí?
 
 Proč záleží. Ochota platit je úplně jiná věc než zájem o produkt. Zákazník může produkt milovat a neplatit dost na to, aby vás to uživilo. Cenu nelze odhadnout, musí se zjistit rozhovory.
 
@@ -163,12 +163,12 @@ Ukazatel ověření. Máme cenu ověřenou rozhovory. Zákazníci vyjádřili oc
 - Výstup. Cenová mapa. Segment, optimální cena, co musí produkt obsahovat, podmínky přechodu.
 - Kritéria ověření. Cenové body ověřené pro každý klíčový segment.
 
-OVĚŘENO. Cena ověřená rozhovory. Zákazníci vyjádřili konkrétní ochotu platit.
-NEOVĚŘENO. Cena stojí jen na naší kalkulaci nákladů nebo přání.
+Ověřeno (zelená). Cena ověřená rozhovory. Zákazníci vyjádřili konkrétní ochotu platit.
+Neobstál (červená). Cena stojí jen na naší kalkulaci nákladů nebo přání.
 
 ---
 
-## Návratnost: Vyplatí se nám to?
+## Návratnost: Vyplatí se to?
 
 Proč záleží. I kdyby bylo vše ostatní zelené, byznys se musí vyplatit. Návratnost ověřuje, kolik zákazníků potřebujeme, jaké máme náklady, kdy se dostaneme do plusu.
 
@@ -183,7 +183,7 @@ Ukazatel ověření. Jednotková ekonomika je zdravá. Zákazník nás stojí m�
 ### B: Standardní test (3 scénáře)
 - Čas. 2 až 3 dny.
 - Co děláme. Finanční model se 3 scénáři, pesimistický, střední, optimistický.
-- Postup. Vyplňte ROI kalkulátor. Zákazníci (start, přírůstek, odchody), příjmy, náklady (fixní plus variabilní), výsledky (měsíční příjem, zisk nebo ztráta, měsíc bodu zvratu).
+- Postup. Vyplňte ROI kalkulátor. Zákazníci (start, přírůstek, odchody), příjmy, náklady (fixní plus variabilní), výsledky (měsíční příjem, zisk nebo ztráta, měsíc bodu zvratu). Vzorce kalkulátoru jsou v `dokumenty-guide.md`, oddíl ROI kalkulátor.
 - Výstup. Graf růstu příjmů. Analýza bodu zvratu. Tabulka scénářů.
 - Kritéria ověření. Ve středním scénáři bod zvratu do 18 měsíců. V pesimistickém je ztráta únosná. Víme, které předpoklady jsou klíčové.
 
@@ -194,5 +194,5 @@ Ukazatel ověření. Jednotková ekonomika je zdravá. Zákazník nás stojí m�
 - Výstup. Finanční model. Poměr hodnoty k nákladu, doba návratnosti, rok ziskovosti.
 - Kritéria ověření. Hodnota zákazníka ku nákladu na akvizici alespoň 3 ku 1. Doba návratnosti pod 12 měsíců. Model robustní při 20% zhoršení.
 
-OVĚŘENO. Jednotková ekonomika je zdravá. Zákazník přinese víc, než stojí. Bod zvratu je dosažitelný.
-NEOVĚŘENO. Čísla se nevyplatí ani při optimistickém scénáři. Bod zvratu je mimo dosah.
+Ověřeno (zelená). Jednotková ekonomika je zdravá. Zákazník přinese víc, než stojí. Bod zvratu je dosažitelný.
+Neobstál (červená). Čísla se nevyplatí ani při optimistickém scénáři. Bod zvratu je mimo dosah.

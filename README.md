@@ -45,13 +45,13 @@ Economics, can we make money:
 
 For each pillar you choose a depth based on risk. A quick check (1 to 3 days) is a first probe. A standard check (1 to 2 weeks) brings real data from customer conversations. A deep check (2 to 4 weeks) is for high-risk, critical decisions. Start with the pillar where uncertainty is highest. If it fails, you save weeks on the rest.
 
-Every check ends in one of two outcomes. Confirmed: enough evidence, the pillar holds, move on. Not confirmed: adjust the idea or stop, and write down what you learned. An assumption that turns out not to hold is information, not failure.
+Every pillar is in one of three states. Validated (green): enough evidence, the pillar holds, move on. Not validated (grey): the pillar has not passed a check yet. Failed (red): the assumption did not hold, adjust the idea or stop, and write down what you learned. A check ends in Validated or Failed. An assumption that turns out not to hold is information, not failure.
 
 ## When a pillar needs your real numbers
 
 Customer, Problem and Product are checked with people: conversations, quotes, reactions. Compass guides all of that on its own.
 
-Sales, Price and Return are decided by numbers the company already has in its CRM and accounting: how many deals it wins, how long a sale takes, what a customer brings over time. Until those numbers are in, the honest answer for these pillars is "we do not know yet", not a guess dressed up as a result.
+Sales, Price and Return are decided by numbers the company already has in its CRM and accounting: how many deals it wins, how long a sale takes, what a customer brings over time. Until those numbers are in, these pillars stay Not validated ("we do not know yet"), not a guess dressed up as a result. Smartin computes the numbers from data. Whether a pillar holds is always decided by a person in the company.
 
 When an idea reaches that point, Compass says so once and leaves the decision to you. If you want to go further, Smartin connects to your CRM and analytics with read-only access and checks those pillars against your real data every week. That part is paid. If you say no, Compass keeps working with interviews and estimates.
 
