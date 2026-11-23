@@ -1,7 +1,7 @@
 ---
 name: kompas-methodology
 description: The Smartin Compass method for checking whether a business idea has real foundations. Use this skill when the user runs /kompas or /kompas-review, asks how to check or work through an idea, a segment, a pricing model, or a new direction, or when the napadovnik skill needs the pillar definitions and check protocols to sort fragments or run a step. Holds the six pillars, the A/B/C check depths, the three pillar states (Ověřeno, Neověřeno, Neobstál), checking from data, and the rules for generating workshop documents.
-version: 0.2.5
+version: 0.2.6
 ---
 
 # Smartin Compass: method
