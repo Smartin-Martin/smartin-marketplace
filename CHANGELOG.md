@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.6 (2026-11-23)
+
+- Commands pre-approve only Read, Grep and Glob. `/kompas` no longer pre-approves the question tool; it asks for missing context in a plain message, as before.
+
 ## 0.2.5 (2026-10-17)
 
 - Pillar states now match the public Smartin Kompas set: Ověřeno (green), Neověřeno (grey, not checked yet), Neobstál (red). Previously NEOVĚŘENO was used for a failed check. In English: Validated, Not validated, Failed.
